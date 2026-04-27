@@ -1,19 +1,17 @@
 version: 1
 
 status:
-  context: "pr-unit-test-validation"
+  context: "intelligent-pr-validation"
   target_url: ""
 
 setup:
   commands:
-    - "python -m pip install --upgrade pip"
-    - "python -m pip install uv"
+    - "uv venv"
     - "uv pip install -e ."
-    - "uv pip install pytest"
   timeout_seconds: 600
 
 tests:
-  command: "uv run python -m pytest -q --maxfail=1"
+  command: "uv run pytest -q --maxfail=1"
   timeout_seconds: 900
   parallel_hint: ""
   log_max_bytes: 120000
@@ -28,7 +26,7 @@ labels:
   remove_stale: true
   create_missing: true
   test_failed: "test-failed"
-  needs_tests: ""
+  needs_tests: "needs-tests"
   ready_for_review: "ready-for-review"
   merge_conflict: "merge-conflict"
 
