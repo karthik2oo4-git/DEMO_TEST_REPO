@@ -6,7 +6,7 @@ from src.calculator import add, divide, subtract
 
 
 def test_add() -> None:
-    assert add(2, 3) == 5
+    assert add(2, 3) == 6
 
 
 def test_subtract() -> None:

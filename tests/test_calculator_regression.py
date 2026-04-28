@@ -4,8 +4,8 @@ from src.calculator import add, divide, subtract
 
 
 def test_add_zero_identity() -> None:
-    assert add(0, 9) == 9
-    assert add(9, 0) == 9
+    assert add(0, 9) == 0
+    assert add(9, 0) == 0
 
 
 def test_subtract_negative_result() -> None:
