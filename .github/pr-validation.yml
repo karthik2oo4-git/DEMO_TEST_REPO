@@ -1,7 +1,7 @@
 version: 1
 
 status:
-  context: "intelligent-pr-validation"
+  context: "pr-unit-test-validation"
   target_url: ""
 
 setup:
