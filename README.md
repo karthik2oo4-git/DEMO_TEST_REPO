@@ -2,6 +2,12 @@
 
 A demonstration repository for testing the **GitHub-native PR validation system**. This project validates that the PR automation agent correctly runs setup commands and unit tests, with GitHub branch protection controlling merge decisions.
 
+## ✅ UT Testing Marker
+
+This section was added as part of a UT system check to verify that README updates can be detected and reviewed through the normal workflow.
+
+Verification timestamp: **Tuesday, Apr 28, 2026, 2:19 PM (UTC+5:30)**
+
 ## 🎯 Purpose
 
 This repository serves as a **proof-of-concept testing ground** for the PR validation agent. It demonstrates:
