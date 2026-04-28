@@ -8,6 +8,10 @@ This section was added as part of a UT system check to verify that README update
 
 Verification timestamp: **Tuesday, Apr 28, 2026, 2:19 PM (UTC+5:30)**
 
+### Additional Test1 Update
+
+This line was added to verify README edits and branch push behavior on `test1`.
+
 ## 🎯 Purpose
 
 This repository serves as a **proof-of-concept testing ground** for the PR validation agent. It demonstrates:
@@ -386,15 +390,7 @@ uv pip compile pyproject.toml -o uv.lock
 
 This is a demo repository for POC testing. To test changes:
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Open a PR to see the automation in action
-5. Observe the validation results in:
-   - PR Checks tab
-   - PR comment from bot
-   - Commit status
-   - Applied labels
+
 
 ## 🔗 Related Resources
 
