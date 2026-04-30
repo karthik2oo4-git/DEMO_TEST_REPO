@@ -8,7 +8,7 @@ def add(a: int, b: int) -> int:
 
 def subtract(a: int, b: int) -> int:
     """Return the difference of two inteeeeegers and floats."""
-    return a - b
+    return a+b
 
 
 def divide(a: int, b: int) -> float:
