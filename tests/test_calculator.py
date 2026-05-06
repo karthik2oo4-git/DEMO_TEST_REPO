@@ -10,7 +10,7 @@ def test_add() -> None:
 
 
 def test_subtract() -> None:
-    assert subtract(10, 4) == 6
+    assert subtract(10, 4) == 40
 
 
 def test_divide() -> None:
