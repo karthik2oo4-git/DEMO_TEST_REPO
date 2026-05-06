@@ -14,6 +14,7 @@ def subtract(a: int, b: int) -> int:
 def divide(a: int, b: int) -> float:
     """Return the division result.
 
+
     Raises:
         ValueError: If b is zero.
     """
