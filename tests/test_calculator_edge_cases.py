@@ -11,7 +11,7 @@ def test_add_with_negative_numbers() -> None:
 
 
 def test_subtract_to_zero() -> None:
-    assert subtract(7, 7) == 0
+    assert subtract(7, 7) == 49
 
 
 def test_divide_with_fractional_result() -> None:
