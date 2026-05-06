@@ -29,7 +29,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Run PR validation action
-        uses: karthik2oo4-git/POC_PR_AUTOMATION@main
+        uses: karthik2oo4-git/POC_PR_AUTOMATION@665d8a6
         with:
           config-path: .github/pr-validation.yml
           python-version: "3.11"
