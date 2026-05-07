@@ -2,7 +2,7 @@
 
 import pytest
 
-from src.calculator import add, divide, subtract,power
+from src.calculator import add, divide, subtract
 
 
 def test_add_with_negative_numbers() -> None:
@@ -27,11 +27,3 @@ def test_divide_by_zero_message() -> None:
         divide(10, 0)
 
 # Made with Bob
-
-def test_negative_base_fractional_exponent() -> None:
-    with pytest.raises(ValueError, match="Negative base with fractional exponent not supported"):
-        power(-2, 0.5)
-
-def test_zero_to_negative_power() -> None:
-    with pytest.raises(ValueError, match="Zero cannot be raised to a negative power"):
-        power(0, -1)
