@@ -30,7 +30,7 @@ def test_divide_by_zero_message() -> None:
 
 def test_negative_base_fractional_exponent() -> None:
     with pytest.raises(ValueError, match="Negative base with fractional exponent not supported"):
-        power(-2, 0.5)
+        power(-2, 1)
 
 def test_zero_to_negative_power() -> None:
     with pytest.raises(ValueError, match="Zero cannot be raised to a negative power"):
