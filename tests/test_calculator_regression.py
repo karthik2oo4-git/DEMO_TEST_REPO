@@ -1,6 +1,6 @@
 """Regression-style tests for baseline calculator behavior."""
 
-from src.calculator import add, divide, subtract
+from src.calculator import add, divide, subtract,power
 
 
 def test_add_zero_identity() -> None:

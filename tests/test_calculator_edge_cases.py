@@ -2,7 +2,7 @@
 
 import pytest
 
-from src.calculator import add, divide, subtract
+from src.calculator import add, divide, subtract,power
 
 
 def test_add_with_negative_numbers() -> None:
