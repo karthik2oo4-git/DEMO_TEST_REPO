@@ -21,4 +21,8 @@ def divide(a: int, b: int) -> float:
         raise ValueError("Cannot divide by zero")
     return a / b
 
+
+def pow(a: int, b: int) -> int:
+    """Return a raised to the power of b."""
+    return a ** b
 # Made with Bob
