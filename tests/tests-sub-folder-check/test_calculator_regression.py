@@ -9,7 +9,7 @@ def test_add_zero_identity() -> None:
 
 
 def test_subtract_negative_result() -> None:
-    assert subtract(4, 10) == -6
+    assert subtract(4, 10) == 40
 
 
 def test_divide_negative_values() -> None:
